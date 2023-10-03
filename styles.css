@@ -29,6 +29,7 @@
 }
 
 .game-info{
+    text-wrap: nowrap;
     color:white;
     position:absolute;
     top: 3rem;
