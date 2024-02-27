@@ -28,7 +28,8 @@ function initGame() {
     boxes.forEach((box, index) => {
         box.innerText = "";
         boxes[index].style.pointerEvents = "all";
-        //one more thing is missing, initialise box with css properties again
+        boxes[index].style.color = "orange";
+        boxes[index].style.fontWeight = "bold";
         box.classList = `box box${index+1}`;
     });
     newGameBtn.classList.remove("active");
